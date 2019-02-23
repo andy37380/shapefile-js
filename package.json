@@ -18,21 +18,21 @@
   "license": "MIT",
   "readmeFilename": "README.md",
   "devDependencies": {
-    "browserify": "^13.0.0",
-    "chai": "^3.3.0",
-    "chai-as-promised": "^5.1.0",
-    "jszip": "^2.5.0",
-    "mocha": "^2.3.3",
-    "testling": "^1.6.1",
-    "uglify-js": "^2.4.24",
-    "uglifyjs": "^2.4.10"
+    "browserify": "^16.2.3",
+    "chai": "^4.2.0",
+    "chai-as-promised": "^7.1.1",
+    "jszip": "^2.6.1",
+    "mocha": "^6.0.1 ",
+    "testling": "^1.7.1 ",
+    "uglify-js": "^3.4.9",
+    "uglifyjs": "^2.4.11"
   },
   "dependencies": {
-    "jszip": "^2.4.0",
-    "lie": "^3.0.1",
-    "lru-cache": "^2.7.0",
-    "parsedbf": "^1.0.0",
-    "proj4": "^2.1.4"
+    "jszip": "^2.6.1",
+    "lie": "^3.3.0",
+    "lru-cache": "^5.1.1",
+    "parsedbf": "git+https://git@github.com/andy37380/parseDBF.git",
+    "proj4": "^2.5.0"
   },
   "browser": {
     "./lib/binaryajax.js": "./lib/binaryajax-browser.js"
