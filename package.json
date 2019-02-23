@@ -24,15 +24,15 @@
     "jszip": "^2.6.1",
     "mocha": "^6.0.1 ",
     "testling": "^1.7.1 ",
-    "uglify-js": "^3.4.9",
-    "uglifyjs": "^2.4.11"
+    "uglify-js": "^3.4.9"
   },
   "dependencies": {
     "jszip": "^2.6.1",
     "lie": "^3.3.0",
     "lru-cache": "^5.1.1",
     "parsedbf": "git+https://git@github.com/andy37380/parseDBF.git",
-    "proj4": "^2.5.0"
+    "proj4": "^2.5.0",
+    "uglify-es": "^3.3.9"
   },
   "browser": {
     "./lib/binaryajax.js": "./lib/binaryajax-browser.js"
